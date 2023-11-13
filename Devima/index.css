@@ -1,0 +1,342 @@
+@font-face{
+    font-family: body;
+    src: url("Bohabey Font by 7Ntypes.otf");
+}
+*
+{
+	font-family: body;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	margin: 0px;
+	/* position: relative; */
+}
+/**L headerr a wtchma inoo**/
+header{
+	background-color:#292c49;
+	color: white;
+	font-weight:bolder;
+	font-size:20px;
+	width:98.6%;	
+	padding: 10px;
+
+	display: inline-flex;
+	justify-content: space-around;/*rwast vertical*/
+	align-items: baseline;/*spadit gi rwas hero*/
+
+	position: -webkit-sticky; /* at9imm thas9 l menu */
+	position: sticky;
+	top: 0;
+}
+.Other-content {
+	background-color:  #292c49;
+	display: none;
+	position: absolute;
+	margin: 10px 0px;
+	z-index: 1;
+	border-radius: 10px;
+	padding: 10px;
+		border-top:5px solid ;
+}
+.Other-content a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+.Other-content a:hover{
+	/* background-color:white; */
+	/* color:#292c49;	 */
+	/* border-bottom:5px solid ; */
+	/* border-radius: 50px; */
+}
+.Other-options:hover .Other-content{display: grid;}
+header div.Menu ul{
+	display: flex;
+	list-style: none;
+}
+header div ul li a{
+	color:white;
+	text-decoration:none;
+	margin: 1px 15px;
+	padding: 10px;
+	border-left:5px #292c49 solid ;
+	border-right:5px #292c49 solid ;
+}
+header div ul li:hover{
+	cursor: pointer;
+	/* border-radius: 50px; */
+	/* background-color:white; kadir cloud lol */
+	color:#292c49;	
+}
+header div ul li a:hover{	
+	cursor: pointer;
+	/* border-radius: 50px; */
+	/* background-color:white; */
+	/* color:#292c49;	 */
+	/* border-left:5px solid ; */
+	/* border-right:5px solid ; */
+	text-decoration: wavy underline;
+	text-decoration-thickness: 1.5px;
+}
+@font-face{
+    font-family: fnt;
+    src: url("Berpatu-PKxr2.otf");
+}
+.Devima a{
+	cursor:grab;
+	font-size: 55px;
+	font-family: fnt;
+	font-weight:bolder;
+	color:white;
+	text-decoration:none;
+}
+.Devima a:hover{
+	color:#e6e8fb;
+}
+/* saerch form */
+form{background-color:white;border-radius: 50px;}
+.search input[type=text]{
+	font-weight:bolder;
+	padding:10px 30px;
+	font-size:15px;
+	border: none;
+	border-radius: 50px;
+}
+.search input[type=text]:focus{outline: none;/*itakas focus ni kh input*/}
+ .search button {
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	margin: 2px 4px;
+	background-color: #292c49;
+    vertical-align: middle;
+	border: none;
+	border-radius: 50px;
+}
+/* end header */
+/* start Articel*/
+@font-face {
+    font-family: introds;
+    src: url("Bohabey Font by 7Ntypes.otf");
+}
+article.artcle-home table{
+	font-weight: bolder;
+	line-height: 34px;
+	font-size: 20px;
+}
+.introud{padding: 30px;padding-top: 60px;	color: #292c49;}
+.introud h1{
+	margin-bottom: 15px;
+	font-family: introds;
+	font-size: 46px;
+	border-bottom: 2px solid;
+	border-width: thick;
+	width:40%;
+	padding-bottom: 8px;
+	background-image: linear-gradient( white 30%,#e3f2f1 20%);
+}
+.introud table tr td a{
+	padding: 0px 10px;
+	margin-left: 10px;
+	font-size: 30px;
+		color: #292c49;
+}
+.introud table tr td a:hover{
+	color: #0db7b1;	
+	font-size: 30px;
+	/* background-color: #292c49; */
+	padding: 0px 10px;
+	border-radius: 10px;
+
+}
+
+/* end Articel*/
+/*  start section*/
+section .whyDevima{	
+	color: #292c49;
+	font-size: 23px;
+	padding: 50px;
+	margin-left: 20px;
+	padding-left: 90px;
+	font-weight: lighter;
+}
+section .whyDevima h1{
+	margin-bottom: 15px;
+	font-family: introds;
+	font-size: 46px;
+	border-bottom: 2px solid;
+	border-width: thick;
+	width: 50%;
+	background-image: linear-gradient( white 50%,#fbe2e5 20%);
+}
+/*  end section*/
+nav .Quote{
+	color: #374792;
+	margin: auto;
+	width:50%;
+	font-size: xx-large;
+	text-align: justify;
+	padding: 40px;
+	background-color:#cfe5e3;
+	border-radius: 100px 1px 100px 1px;
+	margin-bottom:50px;
+	margin-top:50px;
+	/* border:6px double #374792; */
+}
+
+/* start footer */
+footer{
+	background-color: #292c49;
+	color:white;  
+	/* position: fixed; */
+    left: 0;
+    bottom: 0;
+}
+footer div{
+	margin:auto;
+	width:60%;
+	background-color: #292c49;
+	position:relative;
+	/* padding:10px; */
+}
+.Devimafooter{
+	padding:20px;
+	cursor:grab;
+	font-size: 55px;
+	text-align:center;
+	font-family: fnt;
+	font-weight:bolder;
+}
+.textFooter{
+	text-align:center;
+	font-size:22px;
+}
+.SocialMedia-footer tr td a{
+	color:white;
+	font-size:35px;
+	margin-left:24px;
+	border-radius:10px;
+}
+.SocialMedia-footer tr td a:hover{
+	color:#292c49;
+	background-color: white;
+	padding: 0px 12px;
+}
+.SocialMedia-footer{width:30%;}
+.DesignedFooter{width:98.7%;}
+.DesignedFooter p{
+	padding:15px;
+	border-top:2px double white;
+	text-align:center;
+	font-size:20px;
+}
+/* end footer */
+
+/* --------------------Calculator-------------------------- */
+.calculator-main{
+	background-image: url("picteurs/Math-Background-for-PPT.jpg");
+	padding:140px;
+}
+.calculator table{
+	margin:auto;
+	text-align:center;
+	background-color:#292c49;
+}
+.calculator table tr td{
+	width:120px;
+	border:2px solid #babddd;;
+}
+.calculator form input
+{
+	cursor:pointer;
+	font-size:35px;
+	border:none;
+	background-color:#292c49;
+	color:white;
+}
+.calculator .equal input,.equal
+{
+	color:#292c49;
+	background-color:#babddd;
+}
+/* manay bach adlwnagh + - x / wh  */
+.plus,.subtract,.multiply,.devid
+{background-color:#babddd;color:#292c49;}
+.calculator .plus input,.calculator .subtract input
+{background-color:#babddd;color:#292c49;}
+.calculator .devid input,.calculator .multiply input
+{background-color:#babddd;color:#292c49;}
+
+.calculator .result input
+{
+	background-color:white;
+	color:#292c49;
+	width:96.2%;
+	padding:10px;
+}
+
+
+/* --------------------End Calculator-------------------------- */
+.artcle-test
+{
+	height:800px;
+	text-align:center;
+}
+.artcle-test button
+{
+		background-color:grey;
+		padding:10px;
+		border:none;
+		font-size:15px;
+		color:white;
+		border-radius:5px;
+		margin:10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
